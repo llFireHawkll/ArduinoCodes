@@ -1,1 +1,24 @@
+Steps to activate command mode in HC-05 Bluetooth module using Arduino UNO:
 
+  1. First open Arduino IDE and then upload the blank sketch in your Arduino board.
+  2. Then make connection to the Bluetooth module accordingly like this:
+
+    Bluetooth -- arduino
+    
+    vcc -- 5v
+    gnd -- 0v
+    tx  -- tx
+    rx  -- rx
+
+    use potential divider network to level shift 5v to 3.3v
+
+  3. Now connect usb to power the arduino board and then first press the on-board button on the bluetooth module and then connect
+     the vcc of bluetooth module to 5v holding the on-board button to enter the AT cmd mode.
+
+  4. Now you will see the status led of the bluetooth module blinking slowly with blinking speed of (one blink/2 sec).
+     this way you will enter cmd mode in bluetooth module.
+
+  5. Now use all the cmd given in the pdf to execute different codes.
+
+
+    So simple to use........
